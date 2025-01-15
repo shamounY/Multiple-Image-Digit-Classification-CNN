@@ -63,8 +63,8 @@ def learn(X, y):
     return model
 
 def main():
-    data = pd.read_csv(r'A4train.csv', header=None).to_numpy()
-    validation = pd.read_csv(r'A4val.csv', header=None).to_numpy()
+    data = pd.read_csv(r'train.csv', header=None).to_numpy()
+    validation = pd.read_csv(r'validation.csv', header=None).to_numpy()
 
     Y_train = data[:, 0]
     X_train = data[:, 1:]
