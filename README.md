@@ -7,3 +7,8 @@ Install dependaencies:
 ```
 $ pip install -r requirements.txt
 ```
+
+Then run with:
+```
+$ python cnn.py
+```
